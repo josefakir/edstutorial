@@ -142,6 +142,39 @@
     ]
   },
   {
+    "id": "aviso",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Tipo",
+        "value": "informacion",
+        "options": [
+          {
+            "name": "Información",
+            "value": "informacion"
+          },
+          {
+            "name": "Advertencia",
+            "value": "advertencia"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "titulo",
+        "label": "Título"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "texto",
+        "label": "Texto"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {

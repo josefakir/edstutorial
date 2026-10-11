@@ -1,0 +1,28 @@
+.aviso {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 24px;
+    border-left: 6px solid var(--link-color);
+    border-radius: 4px;
+    background-color: var(--light-color);
+  }
+  
+  .aviso .aviso-titulo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-font-size-s);
+    font-weight: bold;
+  }
+  
+  .aviso .aviso-titulo p,
+  .aviso .aviso-texto p {
+    margin: 0;
+  }
+  
+  .aviso.advertencia {
+    border-left-color: #e6a700;
+    background-color: #fff8e1;
+  }
