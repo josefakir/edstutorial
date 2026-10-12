@@ -8,7 +8,8 @@
             "page": {
               "resourceType": "core/franklin/components/section/v1/section",
               "template": {
-                "model": "nav-section"
+                "model": "nav-section",
+                "filter": "nav-section"
               }
             }
           }
