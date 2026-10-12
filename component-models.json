@@ -255,14 +255,14 @@
         "component": "text",
         "valueType": "string",
         "name": "title",
-        "label": "Título del grupo"
+        "label": "Group Title"
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "links",
         "label": "Links",
-        "description": "Una lista con un link por elemento"
+        "description": "A list with one link per element"
       }
     ]
   },
