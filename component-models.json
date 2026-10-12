@@ -273,27 +273,27 @@
         "component": "text",
         "name": "name",
         "label": "Section Name",
-        "description": "Nombre en el Content Tree"
+        "description": "Name shown in the Content Tree"
       },
       {
         "component": "select",
         "name": "style",
-        "label": "Tipo",
+        "label": "Type",
         "options": [
           {
-            "name": "Barra promo",
+            "name": "Promo bar",
             "value": "promo"
           },
           {
-            "name": "Barra utilitaria",
+            "name": "Utility bar",
             "value": "utility"
           },
           {
-            "name": "Marca (logo y búsqueda)",
+            "name": "Brand (logo and search)",
             "value": "brand"
           },
           {
-            "name": "Elemento de menú",
+            "name": "Menu item",
             "value": "menu"
           }
         ]
@@ -301,8 +301,8 @@
       {
         "component": "text",
         "name": "label",
-        "label": "Etiqueta del menú",
-        "description": "Solo para el tipo 'Elemento de menú'. Ej: Solutions"
+        "label": "Menu Label",
+        "description": "Only for the 'Menu item' type. E.g. Solutions"
       }
     ]
   }

@@ -23,24 +23,24 @@
             "component": "text",
             "name": "name",
             "label": "Section Name",
-            "description": "Nombre en el Content Tree"
+            "description": "Name shown in the Content Tree"
           },
           {
             "component": "select",
             "name": "style",
-            "label": "Tipo",
+            "label": "Type",
             "options": [
-              { "name": "Barra promo", "value": "promo" },
-              { "name": "Barra utilitaria", "value": "utility" },
-              { "name": "Marca (logo y búsqueda)", "value": "brand" },
-              { "name": "Elemento de menú", "value": "menu" }
+                { "name": "Promo bar", "value": "promo" },
+                { "name": "Utility bar", "value": "utility" },
+                { "name": "Brand (logo and search)", "value": "brand" },
+                { "name": "Menu item", "value": "menu" }
             ]
           },
           {
             "component": "text",
             "name": "label",
-            "label": "Etiqueta del menú",
-            "description": "Solo para el tipo 'Elemento de menú'. Ej: Solutions"
+            "label": "Menu Label",
+            "description": "Only for the 'Menu item' type. E.g. Solutions"
           }
         ]
       }
