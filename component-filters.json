@@ -2,7 +2,8 @@
   {
     "id": "main",
     "components": [
-      "section"
+      "section",
+      "nav-section"
     ]
   },
   {
@@ -17,6 +18,15 @@
       "columns",
       "fragment",
       "aviso"
+    ]
+  },
+  {
+    "id": "nav-section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "menu-column"
     ]
   },
   {
@@ -38,6 +48,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "menu-column",
+    "components": [
+      "menu-group"
     ]
   }
 ]

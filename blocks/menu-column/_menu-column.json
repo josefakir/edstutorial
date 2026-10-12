@@ -1,0 +1,60 @@
+{
+    "definitions": [
+      {
+        "title": "Menu Column",
+        "id": "menu-column",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "name": "Menu Column",
+                "filter": "menu-column"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Menu Group",
+        "id": "menu-group",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block/item",
+              "template": {
+                "name": "Menu Group",
+                "model": "menu-group"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "models": [
+      {
+        "id": "menu-group",
+        "fields": [
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "title",
+            "label": "Título del grupo"
+          },
+          {
+            "component": "richtext",
+            "valueType": "string",
+            "name": "links",
+            "label": "Links",
+            "description": "Una lista con un link por elemento"
+          }
+        ]
+      }
+    ],
+    "filters": [
+      {
+        "id": "menu-column",
+        "components": ["menu-group"]
+      }
+    ]
+  }

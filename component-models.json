@@ -247,5 +247,63 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "menu-group",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Título del grupo"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "links",
+        "label": "Links",
+        "description": "Una lista con un link por elemento"
+      }
+    ]
+  },
+  {
+    "id": "nav-section",
+    "fields": [
+      {
+        "component": "text",
+        "name": "name",
+        "label": "Section Name",
+        "description": "Nombre en el Content Tree"
+      },
+      {
+        "component": "select",
+        "name": "style",
+        "label": "Tipo",
+        "options": [
+          {
+            "name": "Barra promo",
+            "value": "promo"
+          },
+          {
+            "name": "Barra utilitaria",
+            "value": "utility"
+          },
+          {
+            "name": "Marca (logo y búsqueda)",
+            "value": "brand"
+          },
+          {
+            "name": "Elemento de menú",
+            "value": "menu"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "name": "label",
+        "label": "Etiqueta del menú",
+        "description": "Solo para el tipo 'Elemento de menú'. Ej: Solutions"
+      }
+    ]
   }
 ]
